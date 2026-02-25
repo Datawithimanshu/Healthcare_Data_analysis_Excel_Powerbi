@@ -137,7 +137,7 @@ Average stay duration varies by admission type.
 📁 Repository Structure
 
 Healthcare-Data-Analysis-Excel-PowerBI
-│
+
 ├── 1_Raw_Data
 
 ├── 2_Data_Filtering_Excel
