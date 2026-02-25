@@ -7,4 +7,4 @@ Due to large file, size dataset is hosted on google drive:
 
 Created Pivot Table to summarize key metrics such as total patients, revenue, admission types and medical condition.
 
-[https://docs.google.com/spreadsheets/d/1IYfyO6l3yiTE1kZvYv4yzBzR22xslHjS/edit?usp=drive_link&ouid=102171691396979325428&rtpof=true&sd=true]
+[https://drive.google.com/file/d/15bU_isRGVF9-3tKpPOjbaQ7f4wNQbexK/view?usp=drive_link]
