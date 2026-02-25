@@ -18,3 +18,60 @@ POWER BI DASHBOARD
 Desighned an advanced power bi dashboard with data modeling, DAX measure, and interactive visualization.
 
 [https://drive.google.com/file/d/148WCEGxhnTnqLH_8uZvycydjTCkYKDyE/view?usp=drive_link]
+
+
+Project Title
+Healthcare Data Analysis – Excel & Power BI
+
+📌 Project Objective
+
+To analyze hospital data and identify trends in patient admissions, revenue, average stay duration, and medical conditions.
+
+📌 Tools Used
+
+Microsoft Excel (Data Cleaning + Pivot + Dashboard)
+
+Power BI (Data Modeling + DAX + Dashboard)
+
+📌 Key KPIs
+
+Total Patients
+
+Total Revenue
+
+Average Stay Duration
+
+Abnormal Test Result %
+
+📌 Analysis Performed
+
+Admission Type Analysis
+
+Gender-wise Distribution
+
+Medical Condition Analysis
+
+Monthly Admission Trend
+
+Top Revenue Generating Hospitals
+
+📌 DAX Measures Used (Example)
+Total Patients = COUNT(healthcare_dataset[Patient ID])
+
+Total Revenue = SUM(healthcare_dataset[Billing Amount])
+
+Average Stay = AVERAGE(healthcare_dataset[Stay Duration])
+
+Abnormal % = DIVIDE(CALCULATE(COUNT('healthcare_dataset6'[Test Results]),'healthcare_dataset6'[Test Results]="Abnormal"),count('healthcare_dataset6'[Test Results]))
+
+📌 Business Insights
+
+Most patients were admitted through Emergency.
+
+Revenue peak observed in specific months.
+
+Certain medical conditions generated higher billing revenue.
+
+Average stay duration varies by admission type
+
+Revenue by insurance provider.
