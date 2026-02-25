@@ -41,6 +41,7 @@ Power BI (Data Modeling, DAX Measures, Interactive Dashboard)
 GitHub (Project Documentation & Version Control)
 
 📂 Project Workflow
+
 1️⃣ Raw Data Collection
 
 Imported the original healthcare dataset containing patient records, billing information, admission types, and medical conditions.
@@ -96,6 +97,7 @@ Total Patients = COUNT(healthcare_dataset[Patient ID])
 Total Revenue = SUM(healthcare_dataset[Billing Amount])
 
 Average Stay = AVERAGE(healthcare_dataset[Stay Duration])
+
 6️⃣ Power BI Dashboard Creation
 
 Built an advanced interactive dashboard including:
@@ -133,15 +135,23 @@ Monthly admission trends show fluctuations in patient inflow.
 Average stay duration varies by admission type.
 
 📁 Repository Structure
+
 Healthcare-Data-Analysis-Excel-PowerBI
 │
 ├── 1_Raw_Data
+
 ├── 2_Data_Filtering_Excel
+
 ├── 3_Pivot_Table_Analysis
+
 ├── 4_Excel_Dashboard
+
 ├── 5_PowerBI_Dashboard
+
 ├── 6_Screenshots
+
 └── README.md
+
 💡 Business Value
 
 This project demonstrates how healthcare organizations can use data analytics to:
@@ -157,5 +167,7 @@ Support data-driven decision-making
 👤 Author
 
 Himanshu Rawat
+
 Aspiring Data Analyst
+
 Graduate – Maharshi Dayanand University
