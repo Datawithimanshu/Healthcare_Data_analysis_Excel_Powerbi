@@ -20,20 +20,99 @@ Desighned an advanced power bi dashboard with data modeling, DAX measure, and in
 [https://drive.google.com/file/d/148WCEGxhnTnqLH_8uZvycydjTCkYKDyE/view?usp=drive_link]
 
 
-Project Title
-Healthcare Data Analysis – Excel & Power BI
+🏥 Healthcare Data Analysis – Excel & Power BI
 
-📌 Project Objective
+📌 Project Overview
 
-To analyze hospital data and identify trends in patient admissions, revenue, average stay duration, and medical conditions.
+This project focuses on analyzing a healthcare dataset to identify patterns in patient admissions, revenue generation, medical conditions, and hospital performance.
 
-📌 Tools Used
+The analysis was performed using Microsoft Excel and Power BI, covering the complete workflow from raw data cleaning to interactive dashboard creation.
 
-Microsoft Excel (Data Cleaning + Pivot + Dashboard)
+🎯 Project Objective
 
-Power BI (Data Modeling + DAX + Dashboard)
+To transform raw healthcare data into meaningful insights by applying data cleaning, summarization, and visualization techniques using Excel and Power BI.
 
-📌 Key KPIs
+🛠 Tools & Technologies Used
+
+Microsoft Excel (Data Cleaning, Filtering, Pivot Tables, Dashboard Design)
+
+Power BI (Data Modeling, DAX Measures, Interactive Dashboard)
+
+GitHub (Project Documentation & Version Control)
+
+📂 Project Workflow
+1️⃣ Raw Data Collection
+
+Imported the original healthcare dataset containing patient records, billing information, admission types, and medical conditions.
+
+2️⃣ Data Filtering & Cleaning (Excel)
+
+Removed inconsistencies and unnecessary fields
+
+Structured column formats
+
+Verified data types
+
+Prepared clean dataset for analysis
+
+3️⃣ Pivot Table Analysis (Excel)
+
+Created Pivot Tables to summarize key metrics:
+
+Total Patients
+
+Total Revenue
+
+Admission Type Distribution
+
+Medical Condition Analysis
+
+Monthly Trends
+
+4️⃣ Excel Dashboard Development
+
+Designed an interactive healthcare performance dashboard using:
+
+Pivot Charts
+
+KPI Cards
+
+Slicers (Gender, Admission Type, Year)
+
+Trend Analysis Visuals
+
+5️⃣ Power BI Data Modeling
+
+Imported cleaned Excel data into Power BI
+
+Created calculated measures using DAX
+
+Structured relationships (if applicable)
+
+Example DAX Measures:
+
+Total Patients = COUNT(healthcare_dataset[Patient ID])
+
+Total Revenue = SUM(healthcare_dataset[Billing Amount])
+
+Average Stay = AVERAGE(healthcare_dataset[Stay Duration])
+6️⃣ Power BI Dashboard Creation
+
+Built an advanced interactive dashboard including:
+
+KPI Cards
+
+Revenue Analysis
+
+Admission Type Comparison
+
+Medical Condition Breakdown
+
+Monthly Admission Trends
+
+Top Revenue Generating Hospitals
+
+📊 Key Performance Indicators (KPIs)
 
 Total Patients
 
@@ -41,37 +120,42 @@ Total Revenue
 
 Average Stay Duration
 
-Abnormal Test Result %
+Abnormal Test Result Percentage
 
-📌 Analysis Performed
+📈 Key Insights
 
-Admission Type Analysis
+Emergency admissions accounted for a significant portion of total patients.
 
-Gender-wise Distribution
+Certain medical conditions contributed more to overall revenue.
 
-Medical Condition Analysis
+Monthly admission trends show fluctuations in patient inflow.
 
-Monthly Admission Trend
+Average stay duration varies by admission type.
 
-Top Revenue Generating Hospitals
+📁 Repository Structure
+Healthcare-Data-Analysis-Excel-PowerBI
+│
+├── 1_Raw_Data
+├── 2_Data_Filtering_Excel
+├── 3_Pivot_Table_Analysis
+├── 4_Excel_Dashboard
+├── 5_PowerBI_Dashboard
+├── 6_Screenshots
+└── README.md
+💡 Business Value
 
-📌 DAX Measures Used (Example)
-Total Patients = COUNT(healthcare_dataset[Patient ID])
+This project demonstrates how healthcare organizations can use data analytics to:
 
-Total Revenue = SUM(healthcare_dataset[Billing Amount])
+Monitor hospital performance
 
-Average Stay = AVERAGE(healthcare_dataset[Stay Duration])
+Track revenue trends
 
-Abnormal % = DIVIDE(CALCULATE(COUNT('healthcare_dataset6'[Test Results]),'healthcare_dataset6'[Test Results]="Abnormal"),count('healthcare_dataset6'[Test Results]))
+Analyze patient admission patterns
 
-📌 Business Insights
+Support data-driven decision-making
 
-Most patients were admitted through Emergency.
+👤 Author
 
-Revenue peak observed in specific months.
-
-Certain medical conditions generated higher billing revenue.
-
-Average stay duration varies by admission type
-
-Revenue by insurance provider.
+Himanshu Rawat
+Aspiring Data Analyst
+Graduate – Maharshi Dayanand University
