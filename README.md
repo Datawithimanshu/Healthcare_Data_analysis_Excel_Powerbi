@@ -14,6 +14,7 @@ Built an interactive healthcare performance dashboard in excel using pivot chart
 [https://drive.google.com/file/d/1wK99HLp030DznmpLjrqvANuzfUhLfuQM/view?usp=drive_link]
 
 POWER BI DASHBOARD
+
 Desighned an advanced power bi dashboard with data modeling, DAX measure, and interactive visualization.
 
 [https://drive.google.com/file/d/148WCEGxhnTnqLH_8uZvycydjTCkYKDyE/view?usp=drive_link]
